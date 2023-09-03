@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(232, 225, 225);
+}
+.child{
+    margin-top: 40px;
+    text-align: center;  
+} 
+.child input{
+    width: 100%;
+    max-width: 300px;
+    padding: 10px 10px;
+    border-radius: 5px 20px;
+    font-weight: 700;
+    color: blue;
+}
+.child button{
+    padding: 6px 20px;
+    margin-left: 10px;
+    font-size: 18px;
+    background-color: rgb(29, 28, 28);
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px 10px;
+}
+.child button:hover{
+    background-color: yellow;
+    color: black;
+}
+.result-card{
+    margin: 30px 20px;
+}
+#result-container{
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px 5px;
+}
+@media screen and (max-width:450px) {
+    .child button{
+        margin-top: 20px;
+    }
+}
